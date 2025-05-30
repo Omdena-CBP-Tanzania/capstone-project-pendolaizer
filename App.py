@@ -50,7 +50,7 @@ if st.button("Predict"):
 
 # Input fields for prediction future Temperature
 st.subheader("Predict Future Average Temperature")
-year = st.number_input('Enter Year', min_value=2025, max_value=2100, value=2025)
+year = st.number_input('Enter Year', min_value=2021, max_value=2100, value=2021)
 month = st.number_input('Enter Month', min_value=1, max_value=12, value=1)
 
 if st.button('Predict Temperature'):
