@@ -40,17 +40,17 @@ ax.legend()
 st.pyplot(fig)
 
 # Prediction section
-st.subheader("Predict Average Temperature")
-year = st.slider("Select Year", int(df['Year'].min()), int(df['Year'].max()), step=1)
-month = st.selectbox("Select Month", list(range(1, 13)))
-if st.button("Predict"):
-    prediction = model.predict([[year, month]])[0]
-    st.success(f"Predicted Average Temperature for {year}-{month}: {prediction:.2f} °C")
+#st.subheader("Predict Average Temperature")
+#year = st.slider("Select Year", int(df['Year'].min()), int(df['Year'].max()), step=1)
+#month = st.selectbox("Select Month", list(range(1, 13)))
+#if st.button("Predict"):
+    #prediction = model.predict([[year, month]])[0]
+    #st.success(f"Predicted Average Temperature for {year}-{month}: {prediction:.2f} °C")
 
 
 # Input fields for prediction future Temperature
-st.subheader("Predict Future Average Temperature")
-year = st.number_input('Enter Year', min_value=2021, max_value=2100, value=2021)
+st.subheader("Predict Average Temperature")
+year = st.number_input('Enter Year', min_value=2000, max_value=2100, value=2000)
 month = st.number_input('Enter Month', min_value=1, max_value=12, value=1)
 
 if st.button('Predict Temperature'):
