@@ -48,8 +48,8 @@ if st.button("Predict"):
     st.success(f"Predicted Average Temperature for {year}-{month}: {prediction:.2f} °C")
 
 
-
-    # Input fields for prediction
+# Input fields for prediction future Temperature
+st.subheader("Predict Future Average Temperature")
 year = st.number_input('Enter Year', min_value=2025, max_value=2100, value=2025)
 month = st.number_input('Enter Month', min_value=1, max_value=12, value=1)
 
