@@ -40,18 +40,12 @@ if st.button("Predict"):
     st.success(f"Predicted Average Temperature for {year}-{month}: {prediction:.2f} °C")
 
 # Project Deliverables
-st.subheader("📦 Project Deliverables")
+st.subheader(" Project Deliverables")
 st.markdown("""
-✅ **Final Report**: A comprehensive document summarizing project goals, methodology, EDA findings, and model performance.  
-✅ **Python Code**: Scripts for data cleaning, EDA, model development, and app deployment.  
-✅ **Streamlit Web App**: This live app showcasing climate trends and predictions.  
-✅ **Conclusion**: The project has equipped us with skills in data preprocessing, EDA, ML modeling, and app deployment, using freely available climate data to uncover patterns in Tanzania's climate.
+ **Final Report**: A comprehensive document summarizing project goals, methodology, EDA findings, and model performance.  
+ **Python Code**: Scripts for data cleaning, EDA, model development, and app deployment.  
+ **Streamlit Web App**: This live app showcasing climate trends and predictions.  
+ **Conclusion**: The project has equipped us with skills in data preprocessing, EDA, ML modeling, and app deployment, using freely available climate data to uncover patterns in Tanzania's climate.
 """)
 
-# Conclusion or next steps
-st.subheader("🔍 Next Steps / Future Work")
-st.markdown("""
-- Incorporate more detailed datasets (e.g., humidity, wind speed).  
-- Explore seasonal variations and long-term climate change impacts.  
-- Extend to other regions or countries for broader climate analysis.
-""")
+
